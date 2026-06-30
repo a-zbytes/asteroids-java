@@ -1,0 +1,9 @@
+asteroids/domain/Asteroid.class
+asteroids/PaneView$1.class
+asteroids/domain/LifeIcon.class
+asteroids/PaneView.class
+asteroids/AsteroidsApplication.class
+asteroids/domain/Character.class
+asteroids/domain/Ship.class
+asteroids/domain/AsteroidFactory.class
+asteroids/domain/Projectile.class
