@@ -1,6 +1,6 @@
 # Asteroids (Java)
 
-A Java-based Asteroids game built to explore game loops, object movement, collision detection, and basic physics systems.
+A Java-based Asteroids game built to explore game loops, object movement, collision detection, and game mechanics.
 
 ## Features
 - Player movement and shooting
