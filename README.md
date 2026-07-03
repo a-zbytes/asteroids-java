@@ -7,16 +7,18 @@ A Java-based Asteroids game built to explore game loops, object movement, collis
 - Asteroid spawning system
 - Collision detection
 - Score tracking
+- 10-level progression
+- Restart functionality
 
 ## Game Modes
-- Classic Mode (default gameplay)
-- Gravity Mode (in development)
+- Classic Mode
+- Gravity Mode
 
-## What I learned
+## What I Learned
 - Game loop architecture
 - Object-oriented design in Java
 - Collision detection systems
-- Score/state management in games
+- Score and game state management
 
 ## Status
-Core game complete — adding experimental gravity mode
+Core game complete.
