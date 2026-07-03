@@ -2,7 +2,6 @@
 package asteroids.domain;
 
 import asteroids.AsteroidsApplication;
-import javafx.beans.property.DoubleProperty;
 import javafx.geometry.Point2D;
 import javafx.scene.shape.Polygon;
 import javafx.scene.shape.Shape;
@@ -98,6 +97,10 @@ public class Character {
     
     public void setMovement(Point2D movement) {
         this.movement = movement;
+    }
+    
+    public int getPoint() {
+        return 0;
     }
     
 }

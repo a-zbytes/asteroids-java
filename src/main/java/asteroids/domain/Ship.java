@@ -24,7 +24,7 @@ public class Ship extends Character {
         this.setMovement(Point2D.ZERO);
         this.invincible = true;
         this.invincibilityTime = System.nanoTime() + 3_000_000_000L;
-        
+
         this.setAlive(true);
     }
     
