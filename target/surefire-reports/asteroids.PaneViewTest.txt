@@ -1,0 +1,16 @@
+-------------------------------------------------------------------------------
+Test set: asteroids.PaneViewTest
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 0.328 s <<< FAILURE! -- in asteroids.PaneViewTest
+asteroids.PaneViewTest -- Time elapsed: 0.328 s <<< ERROR!
+java.lang.NullPointerException
+	at javafx.graphics/com.sun.glass.ui.Application.run(Application.java:145)
+	at javafx.graphics/com.sun.javafx.tk.quantum.QuantumToolkit.startup(QuantumToolkit.java:257)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:270)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.startup(PlatformImpl.java:159)
+	at javafx.swing/javafx.embed.swing.JFXPanel.initFx(JFXPanel.java:256)
+	at javafx.swing/javafx.embed.swing.JFXPanel.<init>(JFXPanel.java:272)
+	at asteroids.PaneViewTest.initJavaFx(PaneViewTest.java:25)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

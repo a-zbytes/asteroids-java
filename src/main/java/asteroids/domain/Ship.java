@@ -6,8 +6,8 @@ import javafx.scene.shape.Polygon;
 
 
 public class Ship extends Character {
-    public boolean invincible;
-    public long invincibilityTime;
+    private boolean invincible;
+    private long invincibilityTime;
     
     public Ship(double x, double y) {
         super(new Polygon(-5, 5,

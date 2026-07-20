@@ -1,0 +1,29 @@
+-------------------------------------------------------------------------------
+Test set: asteroids.PaneViewTest$PurgeDead
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 2, Skipped: 0, Time elapsed: 0.379 s <<< FAILURE! -- in asteroids.PaneViewTest$PurgeDead
+asteroids.PaneViewTest$PurgeDead.shouldRemoveDeadCharactersFromList -- Time elapsed: 0.340 s <<< ERROR!
+java.lang.ExceptionInInitializerError
+	at asteroids.PaneView.<init>(PaneView.java:74)
+	at asteroids.PaneViewTest.setUp(PaneViewTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+Caused by: java.lang.IllegalStateException: Toolkit not initialized
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:411)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.runLater(PlatformImpl.java:406)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.setPlatformUserAgentStylesheet(PlatformImpl.java:696)
+	at javafx.graphics/com.sun.javafx.application.PlatformImpl.setDefaultPlatformUserAgentStylesheet(PlatformImpl.java:658)
+	at javafx.controls/javafx.scene.control.Control.<clinit>(Control.java:99)
+	... 6 more
+
+asteroids.PaneViewTest$PurgeDead.shouldKeepAliveCharactersInList -- Time elapsed: 0.007 s <<< ERROR!
+java.lang.NoClassDefFoundError: Could not initialize class javafx.scene.control.Button
+	at asteroids.PaneView.<init>(PaneView.java:74)
+	at asteroids.PaneViewTest.setUp(PaneViewTest.java:37)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+	at java.base/java.util.ArrayList.forEach(ArrayList.java:1541)
+

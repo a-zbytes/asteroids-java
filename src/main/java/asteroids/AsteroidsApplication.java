@@ -8,7 +8,7 @@ import javafx.stage.Stage;
 
 public class AsteroidsApplication extends Application {
     
-    public static DoubleProperty width = new SimpleDoubleProperty(400);
+    public static DoubleProperty width = new SimpleDoubleProperty(800);
     public static DoubleProperty height = new SimpleDoubleProperty(800);
     
     @Override

@@ -1,0 +1,13 @@
+asteroids/domain/CharacterTest$Accelerate.class
+asteroids/domain/ShipTest.class
+asteroids/domain/ShipTest$UpdateInvincibility.class
+asteroids/domain/LifeIconTest.class
+asteroids/domain/CharacterTest.class
+asteroids/domain/CharacterTest$Move.class
+asteroids/domain/AsteroidFactoryTest.class
+asteroids/domain/CharacterTest$Collide.class
+asteroids/domain/AsteroidTest.class
+asteroids/domain/ProjectileTest.class
+asteroids/domain/AsteroidTest$Move.class
+asteroids/domain/CharacterTest$Warp.class
+asteroids/PaneViewTest.class
