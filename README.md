@@ -2,6 +2,8 @@
 
 A Java-based Asteroids game built to explore game loops, object movement, collision detection, and game mechanics.
 
+![Asteroids](screenshots/asteroids.png)
+
 ## Features
 - Player movement and shooting
 - Asteroid spawning system
