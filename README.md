@@ -29,4 +29,4 @@ A Java-based Asteroids game built to explore game loops, object movement, collis
 - Writing unit tests with JUnit
 
 ## Status
-Core game complete.
+Game complete.
